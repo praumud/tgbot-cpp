@@ -135,6 +135,7 @@ Use the [example CMakeLists.txt](samples/echobot/CMakeLists.txt) with changes:
 
 1. Remove `/usr/local/include`
 2. Change `/usr/local/lib/libTgBot.a` to `C:/src/vcpkg/installed/x64-windows/lib/TgBot.lib` or something simmilar according to your own installation path.
+3. Change `/vcpkg/scripts/buildsystems/vcpkg.cmake` to `C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake` or something simmilar according to your own installation path.
 
 
 ## Bot compilation
